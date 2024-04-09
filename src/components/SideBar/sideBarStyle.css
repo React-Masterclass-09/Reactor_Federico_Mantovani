@@ -1,0 +1,13 @@
+.bg-style-side {
+    background-color: rgb(179, 48, 48); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgb(161, 181, 125); 
+}
+
+.font-side {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+  }
+
