@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import routes from '../../routes/routes';
 import { useContext } from 'react';
-import { UserContext } from '../../Contexts/UserContext';
+import { UserContext } from '../../Contexts/UserContext'
 
 const NavBar = () => {
   
-  const { user, singOut } = useContext(UserContext);
+   const {user, signOut} = useContext(UserContext);
 
   return (
     <nav className="navbar navbar-expand-lg bg-color-nav">
